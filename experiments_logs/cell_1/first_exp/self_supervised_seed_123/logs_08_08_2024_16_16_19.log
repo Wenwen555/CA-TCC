@@ -1,0 +1,27 @@
+=============================================
+Dataset: cell_mit_batch1_raw_data
+Mode:    self_supervised
+=============================================
+Data loaded ...
+Training started ....
+
+Epoch : 1
+Train MSE Loss     : 13.733617	 | 	Train Accuracy     : 0.000000
+Valid MSE Loss     : 0.000000	 | 	Valid Accuracy     : 0.000000
+Valid MAPE Loss    : 0.000000	 | 	Valid Accuracy     : 0.000000
+lr                 : [0.0003]
+
+
+Epoch : 2
+Train MSE Loss     : 13.662143	 | 	Train Accuracy     : 0.000000
+Valid MSE Loss     : 0.000000	 | 	Valid Accuracy     : 0.000000
+Valid MAPE Loss    : 0.000000	 | 	Valid Accuracy     : 0.000000
+lr                 : [0.0003]
+
+
+Epoch : 3
+Train MSE Loss     : 13.642937	 | 	Train Accuracy     : 0.000000
+Valid MSE Loss     : 0.000000	 | 	Valid Accuracy     : 0.000000
+Valid MAPE Loss    : 0.000000	 | 	Valid Accuracy     : 0.000000
+lr                 : [0.0003]
+

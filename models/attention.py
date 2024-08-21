@@ -100,6 +100,7 @@ class Seq_Transformer(nn.Module):
         self.transformer = Transformer(dim, depth, heads, mlp_dim, dropout)
         self.to_c_token = nn.Identity()
 
+
     def forward(self, forward_seq):
         x = self.patch_to_embedding(forward_seq)
         b, n, _ = x.shape

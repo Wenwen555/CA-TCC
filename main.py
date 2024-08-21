@@ -6,9 +6,10 @@ from datetime import datetime
 import numpy as np
 import torch
 
-from dataloader.dataloader import data_generator
+from dataloader.dataloader_XJTU import data_generator
 from models.TC import TC
-from models.model import base_Model
+# from models.pinn_cnn import base_Model
+from models.resnet34 import base_Model
 from trainer.trainer import Trainer, model_evaluate, gen_pseudo_labels
 from utils import _calc_metrics, copy_Files
 from utils import _logger, set_requires_grad
@@ -23,26 +24,29 @@ parser.add_argument('--experiment_description',     default='HAR_experiments',  
 parser.add_argument('--run_description',            default='test1',            type=str,   help='Experiment Description')
 parser.add_argument('--seed',                       default=0,                  type=int,   help='seed value')
 parser.add_argument('--training_mode',              default='self_supervised',  type=str,
-                    help='Modes of choice: random_init, supervised, self_supervised, SupCon, ft_1p, gen_pseudo_labels')
+                    help='Modes of choice: random_init, supervised, self_supervised, SupCon, ft_1p, gen_pseudo_labels, supervised_with_contrast')
 
-parser.add_argument('--selected_dataset',           default='HAR',              type=str,   help='Dataset of choice: EEG, HAR, Epilepsy, pFD')
+parser.add_argument('--selected_dataset',           default='cell_mit_batch1',  type=str,   help='Dataset of choice: EEG, HAR, Epilepsy, pFD')
 parser.add_argument('--data_path',                  default=r'data/',           type=str,   help='Path containing dataset')
 
 parser.add_argument('--logs_save_dir',              default='experiments_logs', type=str,   help='saving directory')
 parser.add_argument('--device',                     default='cuda:0',           type=str,   help='cpu or cuda')
 parser.add_argument('--home_path',                  default=home_dir,           type=str,   help='Project home directory')
+parser.add_argument('--dataset',                    default='mit',              type=str,   help='Project home directory')
 args = parser.parse_args()
 
 device = torch.device(args.device)
 experiment_description = args.experiment_description
 data_type = args.selected_dataset
+dataname = args.dataset
+# data_type = "cell_mit_batch1"
 training_mode = args.training_mode
 run_description = args.run_description
 
 logs_save_dir = args.logs_save_dir
 os.makedirs(logs_save_dir, exist_ok=True)
 
-exec(f'from config_files.{data_type}_Configs import Config as Configs')
+exec(f'from config_files.{dataname}.{data_type}_Configs import Config as Configs')
 configs = Configs()
 
 # ##### fix random seeds for reproducibility ########
@@ -118,6 +122,7 @@ if "train_linear" in training_mode or "tl" in training_mode:
     else:
         load_from = os.path.join(
             os.path.join(logs_save_dir, experiment_description, run_description, f"SupCon_seed_{SEED}", "saved_models"))
+
     chkpoint = torch.load(os.path.join(load_from, "ckp_last.pt"), map_location=device)
     pretrained_dict = chkpoint["model_state_dict"]
     model_dict = model.state_dict()
@@ -157,9 +162,12 @@ if training_mode == "SupCon":
     pretrained_dict = chkpoint["model_state_dict"]      
     model.load_state_dict(pretrained_dict)     
     
-    
-model_optimizer = torch.optim.Adam(model.parameters(), lr=configs.lr, betas=(configs.beta1, configs.beta2),
+
+model_optimizer = torch.optim.Adam(list(model.parameters()), lr=configs.lr, betas=(configs.beta1, configs.beta2),
                                    weight_decay=3e-4)
+
+# encode_model_optimizer = torch.optim.Adam(list(encode_model.parameters()), lr=configs.lr, betas=(configs.beta1, configs.beta2),
+#                                           weight_decay=3e-4)
 
 temporal_contr_optimizer = torch.optim.Adam(temporal_contr_model.parameters(), lr=configs.lr,
                                             betas=(configs.beta1, configs.beta2), weight_decay=3e-4)

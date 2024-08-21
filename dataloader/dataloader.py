@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
 
 from .augmentations import DataTransform
+from sklearn.preprocessing import StandardScaler
 
 
 class Load_Dataset(Dataset):
@@ -14,31 +15,105 @@ class Load_Dataset(Dataset):
         super(Load_Dataset, self).__init__()
         self.training_mode = training_mode
 
-        X_train = dataset["samples"]
-        y_train = dataset["labels"]
+        # 传入的应该是一个电池列表，但是访问到具体的电池元素时，其本身就是一个字典
 
-        if len(X_train.shape) < 3:
-            X_train = X_train.unsqueeze(2)
+        # if len(X_train.shape) < 3:
+        #     X_train = X_train.reshape(X_train.shape[0], 1, X_train.shape[1])
+        #
+        # if X_train.shape.index(min(X_train.shape)) != 1:  # make sure the Channels in second dim
+        #     X_train = X_train.permute(0, 2, 1)
+        #
+        # if isinstance(X_train, np.ndarray):
+        #     self.x_data = torch.from_numpy(X_train)
+        #     self.y_data = torch.from_numpy(y_train).long()
+        # else:
+        #     self.x_data = X_train
+        #     self.y_data = y_train
 
-        if X_train.shape.index(min(X_train.shape)) != 1:  # make sure the Channels in second dim
-            X_train = X_train.permute(0, 2, 1)
+        # self.len = X_train.shape[0]
+        # nominal_capacity = 1.1
+        scaler = StandardScaler()
+        # labelset = [d['summary']['QD'][:] for d in dataset]
+        labelset = [d['summary'] for d in dataset]
+        labels = []
+        # labelset = [d["summary"]/(d['summary'].max().max()) for d in dataset]
+        data = [d["cycle"] for d in dataset]
+        # dataset = [d["cycles"] for d in dataset]
 
-        if isinstance(X_train, np.ndarray):
-            self.x_data = torch.from_numpy(X_train)
-            self.y_data = torch.from_numpy(y_train).long()
-        else:
-            self.x_data = X_train
-            self.y_data = y_train
+        records = []
+        # ks = ['I', 'Qc', 'Qd', 'Qdlin', 'T', 'Tdlin', 'V', 'dQdV']
+        # ks = ['I', 'Qd', 'T', 'V', 'dQdV']
+        # ks = ['I', 'Qc', 'V', 'T', 'Qd']
+        ks = ['current (A)', 'voltage (V)', 'charge Q (Ah)', 'discharge Q (Ah)', 'Temperature']
+        # seq_len_of_records = {}
+        # start = 150
+        # end = 500
+        for i in range(len(dataset)):
+            cell_data = data[i]
+            cell_label = labelset[i]
+            cycles = sorted(cell_data.keys(), key=lambda x: int(x))[:]
+            # records.append(np.asarray([[scaler.fit_transform(cell_data[str(c)][k][:head].reshape(-1, 1)).flatten() for k in ks] for c in cycles], dtype=np.float32))
+            # labels.append(
+            #     np.asarray([cell_label[int(c)] for c in cycles if len(cell_data[str(c)][ks[0]]) >= 500] , dtype=np.float32)
+            # )
+            labels.append(
+                np.asarray(cell_label, dtype=np.float32)
+            )
+            records.append(
+                np.asarray([[cell_data[c][k][:] for k in ks] for c in cycles],
+                           dtype=np.float32)
+            )
+            # records.append(
+            #     np.asarray([[cell_data[c][k][start:end] for k in ks] for c in cycles if len(cell_data[str(c)][ks[0]]) >= 500], dtype=np.float32)
+            # )
+        #     temp_cycle = []
+        #     for c in cycles:
+        #         temp_columns = []
+        #         for k in ks:
+        #             temp_columns.append(len(cell_data[str(c)][k]))
+        #         temp_cycle.append(min(temp_columns))
+        #     seq_len_of_records[str(i)] = min(temp_cycle)
+        # min_key = min(seq_len_of_records, key=seq_len_of_records.get)
+        # min_len = seq_len_of_records[min_key]
+        del dataset
 
-        self.len = X_train.shape[0]
-        if training_mode == "self_supervised" or training_mode == "SupCon":  # no need to apply Augmentations in other modes
-            self.aug1, self.aug2 = DataTransform(self.x_data, config)
+        num_samples = [len(d) for d in records]
+        self._cum_sum = np.cumsum(num_samples)
+        self.len = sum(num_samples)
+        self.indexes = {}
+        start = 0
+        for i, s in enumerate(self._cum_sum):
+            for idx in range(start, s):
+                curr_idx = idx - start
+                self.indexes[idx] = (i, curr_idx)
+            start = s
+
+        self.x_data = records
+        self.y_data = labels
+
+        for idx in range(len(self.x_data)):
+            if isinstance(self.x_data[idx], np.ndarray):
+                self.x_data[idx] = torch.from_numpy(self.x_data[idx])
+                self.y_data[idx] = torch.from_numpy(self.y_data[idx])
+
+        self.aug1 = []
+        self.aug2 = []
+        for idx in range(len(self.x_data)):
+            # no need to apply Augmentations in other modes
+            if training_mode == "self_supervised" or training_mode == "SupCon":
+                a, b = DataTransform(self.x_data[idx], config)
+                # a = torch.from_numpy(a)
+                self.aug1.append(a)
+                self.aug2.append(b)
+        # if training_mode == "self_supervised" or training_mode == "SupCon":  # no need to apply Augmentations in other modes
+        #     self.aug1, self.aug2 = DataTransform(self.x_data, config)
 
     def __getitem__(self, index):
+        i, si = self.indexes[index]
         if self.training_mode == "self_supervised" or self.training_mode == "SupCon":
-            return self.x_data[index], self.y_data[index], self.aug1[index], self.aug2[index]
+            return self.x_data[i][si], self.y_data[i][si], self.aug1[i][si], self.aug2[i][si]
         else:
-            return self.x_data[index], self.y_data[index], self.x_data[index], self.x_data[index]
+            return self.x_data[i][si], self.y_data[i][si], self.x_data[i][si], self.x_data[i][si]
 
     def __len__(self):
         return self.len
@@ -46,7 +121,6 @@ class Load_Dataset(Dataset):
 
 def data_generator(data_path, configs, training_mode):
     batch_size = configs.batch_size
-
 
     if "_1p" in training_mode:
         train_dataset = torch.load(os.path.join(data_path, "train_1perc.pt"))

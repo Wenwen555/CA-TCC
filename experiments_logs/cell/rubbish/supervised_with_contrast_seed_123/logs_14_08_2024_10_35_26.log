@@ -1,0 +1,1062 @@
+=============================================
+Dataset: cell_mit_batch1_raw_data
+Mode:    supervised_with_contrast
+=============================================
+Data loaded ...
+Training started ....
+
+Epoch : 1
+Train MSE Loss     : 1.008487	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.008107	 | 	Valid Accuracy     : 0.008107
+Valid MAPE Loss    : 8.018613	 | 	Valid Accuracy     : 0.008107
+lr                 : [0.0003]
+
+
+Epoch : 2
+Train MSE Loss     : 1.004875	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000837	 | 	Valid Accuracy     : 0.000837
+Valid MAPE Loss    : 1.483547	 | 	Valid Accuracy     : 0.000837
+lr                 : [0.0003]
+
+
+Epoch : 3
+Train MSE Loss     : 1.002009	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.008467	 | 	Valid Accuracy     : 0.008467
+Valid MAPE Loss    : 8.279488	 | 	Valid Accuracy     : 0.008467
+lr                 : [0.0003]
+
+
+Epoch : 4
+Train MSE Loss     : 1.003314	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001461	 | 	Valid Accuracy     : 0.001461
+Valid MAPE Loss    : 2.669501	 | 	Valid Accuracy     : 0.001461
+lr                 : [0.0003]
+
+
+Epoch : 5
+Train MSE Loss     : 1.002907	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001603	 | 	Valid Accuracy     : 0.001603
+Valid MAPE Loss    : 3.080712	 | 	Valid Accuracy     : 0.001603
+lr                 : [0.0003]
+
+
+Epoch : 6
+Train MSE Loss     : 1.000969	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.013525	 | 	Valid Accuracy     : 0.013525
+Valid MAPE Loss    : 10.528886	 | 	Valid Accuracy     : 0.013525
+lr                 : [0.0003]
+
+
+Epoch : 7
+Train MSE Loss     : 1.000708	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001181	 | 	Valid Accuracy     : 0.001181
+Valid MAPE Loss    : 2.268116	 | 	Valid Accuracy     : 0.001181
+lr                 : [0.0003]
+
+
+Epoch : 8
+Train MSE Loss     : 1.001029	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001923	 | 	Valid Accuracy     : 0.001923
+Valid MAPE Loss    : 3.653444	 | 	Valid Accuracy     : 0.001923
+lr                 : [0.0003]
+
+
+Epoch : 9
+Train MSE Loss     : 1.001127	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000786	 | 	Valid Accuracy     : 0.000786
+Valid MAPE Loss    : 1.640411	 | 	Valid Accuracy     : 0.000786
+lr                 : [0.0003]
+
+
+Epoch : 10
+Train MSE Loss     : 1.000904	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000540	 | 	Valid Accuracy     : 0.000540
+Valid MAPE Loss    : 0.807394	 | 	Valid Accuracy     : 0.000540
+lr                 : [0.0003]
+
+
+Epoch : 11
+Train MSE Loss     : 1.001920	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001653	 | 	Valid Accuracy     : 0.001653
+Valid MAPE Loss    : 3.272727	 | 	Valid Accuracy     : 0.001653
+lr                 : [0.0003]
+
+
+Epoch : 12
+Train MSE Loss     : 1.001270	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.002949	 | 	Valid Accuracy     : 0.002949
+Valid MAPE Loss    : 4.749508	 | 	Valid Accuracy     : 0.002949
+lr                 : [0.0003]
+
+
+Epoch : 13
+Train MSE Loss     : 1.000818	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.004648	 | 	Valid Accuracy     : 0.004648
+Valid MAPE Loss    : 6.174415	 | 	Valid Accuracy     : 0.004648
+lr                 : [0.0003]
+
+
+Epoch : 14
+Train MSE Loss     : 1.000653	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000493	 | 	Valid Accuracy     : 0.000493
+Valid MAPE Loss    : 0.507707	 | 	Valid Accuracy     : 0.000493
+lr                 : [0.0003]
+
+
+Epoch : 15
+Train MSE Loss     : 1.002875	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000678	 | 	Valid Accuracy     : 0.000678
+Valid MAPE Loss    : 1.317515	 | 	Valid Accuracy     : 0.000678
+lr                 : [0.0003]
+
+
+Epoch : 16
+Train MSE Loss     : 1.001172	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.005310	 | 	Valid Accuracy     : 0.005310
+Valid MAPE Loss    : 6.405231	 | 	Valid Accuracy     : 0.005310
+lr                 : [0.0003]
+
+
+Epoch : 17
+Train MSE Loss     : 1.000547	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000635	 | 	Valid Accuracy     : 0.000635
+Valid MAPE Loss    : 1.283192	 | 	Valid Accuracy     : 0.000635
+lr                 : [0.0003]
+
+
+Epoch : 18
+Train MSE Loss     : 1.003075	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.014688	 | 	Valid Accuracy     : 0.014688
+Valid MAPE Loss    : 11.442238	 | 	Valid Accuracy     : 0.014688
+lr                 : [0.0003]
+
+
+Epoch : 19
+Train MSE Loss     : 1.002015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001819	 | 	Valid Accuracy     : 0.001819
+Valid MAPE Loss    : 3.571384	 | 	Valid Accuracy     : 0.001819
+lr                 : [0.0003]
+
+
+Epoch : 20
+Train MSE Loss     : 1.000627	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000611	 | 	Valid Accuracy     : 0.000611
+Valid MAPE Loss    : 0.970825	 | 	Valid Accuracy     : 0.000611
+lr                 : [0.0003]
+
+
+Epoch : 21
+Train MSE Loss     : 1.001033	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000724	 | 	Valid Accuracy     : 0.000724
+Valid MAPE Loss    : 1.492799	 | 	Valid Accuracy     : 0.000724
+lr                 : [0.0003]
+
+
+Epoch : 22
+Train MSE Loss     : 1.002643	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001437	 | 	Valid Accuracy     : 0.001437
+Valid MAPE Loss    : 2.862298	 | 	Valid Accuracy     : 0.001437
+lr                 : [0.0003]
+
+
+Epoch : 23
+Train MSE Loss     : 1.000338	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000491	 | 	Valid Accuracy     : 0.000491
+Valid MAPE Loss    : 0.484245	 | 	Valid Accuracy     : 0.000491
+lr                 : [0.0003]
+
+
+Epoch : 24
+Train MSE Loss     : 1.001228	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001420	 | 	Valid Accuracy     : 0.001420
+Valid MAPE Loss    : 2.998993	 | 	Valid Accuracy     : 0.001420
+lr                 : [0.0003]
+
+
+Epoch : 25
+Train MSE Loss     : 1.002785	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001651	 | 	Valid Accuracy     : 0.001651
+Valid MAPE Loss    : 3.320828	 | 	Valid Accuracy     : 0.001651
+lr                 : [0.0003]
+
+
+Epoch : 26
+Train MSE Loss     : 1.002513	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000714	 | 	Valid Accuracy     : 0.000714
+Valid MAPE Loss    : 1.484608	 | 	Valid Accuracy     : 0.000714
+lr                 : [0.0003]
+
+
+Epoch : 27
+Train MSE Loss     : 1.002059	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.007884	 | 	Valid Accuracy     : 0.007884
+Valid MAPE Loss    : 8.303566	 | 	Valid Accuracy     : 0.007884
+lr                 : [0.0003]
+
+
+Epoch : 28
+Train MSE Loss     : 1.002323	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000942	 | 	Valid Accuracy     : 0.000942
+Valid MAPE Loss    : 2.021907	 | 	Valid Accuracy     : 0.000942
+lr                 : [0.0003]
+
+
+Epoch : 29
+Train MSE Loss     : 1.002155	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001041	 | 	Valid Accuracy     : 0.001041
+Valid MAPE Loss    : 2.281610	 | 	Valid Accuracy     : 0.001041
+lr                 : [0.0003]
+
+
+Epoch : 30
+Train MSE Loss     : 1.000901	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.006466	 | 	Valid Accuracy     : 0.006466
+Valid MAPE Loss    : 7.436079	 | 	Valid Accuracy     : 0.006466
+lr                 : [0.0003]
+
+
+Epoch : 31
+Train MSE Loss     : 1.001535	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000477	 | 	Valid Accuracy     : 0.000477
+Valid MAPE Loss    : 0.357230	 | 	Valid Accuracy     : 0.000477
+lr                 : [0.0003]
+
+
+Epoch : 32
+Train MSE Loss     : 1.004254	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.005090	 | 	Valid Accuracy     : 0.005090
+Valid MAPE Loss    : 6.590986	 | 	Valid Accuracy     : 0.005090
+lr                 : [0.0003]
+
+
+Epoch : 33
+Train MSE Loss     : 1.003150	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001910	 | 	Valid Accuracy     : 0.001910
+Valid MAPE Loss    : 3.688028	 | 	Valid Accuracy     : 0.001910
+lr                 : [0.0003]
+
+
+Epoch : 34
+Train MSE Loss     : 1.001104	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000603	 | 	Valid Accuracy     : 0.000603
+Valid MAPE Loss    : 0.994502	 | 	Valid Accuracy     : 0.000603
+lr                 : [0.0003]
+
+
+Epoch : 35
+Train MSE Loss     : 1.001488	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.003103	 | 	Valid Accuracy     : 0.003103
+Valid MAPE Loss    : 4.937641	 | 	Valid Accuracy     : 0.003103
+lr                 : [0.0003]
+
+
+Epoch : 36
+Train MSE Loss     : 1.000479	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000601	 | 	Valid Accuracy     : 0.000601
+Valid MAPE Loss    : 1.138889	 | 	Valid Accuracy     : 0.000601
+lr                 : [0.0003]
+
+
+Epoch : 37
+Train MSE Loss     : 1.002066	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.001934	 | 	Valid Accuracy     : 0.001934
+Valid MAPE Loss    : 3.653255	 | 	Valid Accuracy     : 0.001934
+lr                 : [0.0003]
+
+
+Epoch : 38
+Train MSE Loss     : 1.001512	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000483	 | 	Valid Accuracy     : 0.000483
+Valid MAPE Loss    : 0.425505	 | 	Valid Accuracy     : 0.000483
+lr                 : [0.0003]
+
+
+Epoch : 39
+Train MSE Loss     : 1.003543	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.006487	 | 	Valid Accuracy     : 0.006487
+Valid MAPE Loss    : 7.433548	 | 	Valid Accuracy     : 0.006487
+lr                 : [0.0003]
+
+
+Epoch : 40
+Train MSE Loss     : 1.003859	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000688	 | 	Valid Accuracy     : 0.000688
+Valid MAPE Loss    : 1.380786	 | 	Valid Accuracy     : 0.000688
+lr                 : [0.0003]
+
+
+Epoch : 41
+Train MSE Loss     : 1.001158	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.010736	 | 	Valid Accuracy     : 0.010736
+Valid MAPE Loss    : 9.718326	 | 	Valid Accuracy     : 0.010736
+lr                 : [0.0003]
+
+
+Epoch : 42
+Train MSE Loss     : 1.001490	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000589	 | 	Valid Accuracy     : 0.000589
+Valid MAPE Loss    : 1.111340	 | 	Valid Accuracy     : 0.000589
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 43
+Train MSE Loss     : 1.000067	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000502	 | 	Valid Accuracy     : 0.000502
+Valid MAPE Loss    : 0.666700	 | 	Valid Accuracy     : 0.000502
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 44
+Train MSE Loss     : 1.000033	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000470	 | 	Valid Accuracy     : 0.000470
+Valid MAPE Loss    : 0.337165	 | 	Valid Accuracy     : 0.000470
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 45
+Train MSE Loss     : 1.000039	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000486	 | 	Valid Accuracy     : 0.000486
+Valid MAPE Loss    : 0.489835	 | 	Valid Accuracy     : 0.000486
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 46
+Train MSE Loss     : 1.000034	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.241079	 | 	Valid Accuracy     : 0.000462
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 47
+Train MSE Loss     : 1.000048	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000470	 | 	Valid Accuracy     : 0.000470
+Valid MAPE Loss    : 0.327051	 | 	Valid Accuracy     : 0.000470
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 48
+Train MSE Loss     : 1.000042	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000478	 | 	Valid Accuracy     : 0.000478
+Valid MAPE Loss    : 0.416276	 | 	Valid Accuracy     : 0.000478
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 49
+Train MSE Loss     : 1.000044	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000561	 | 	Valid Accuracy     : 0.000561
+Valid MAPE Loss    : 1.010375	 | 	Valid Accuracy     : 0.000561
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 50
+Train MSE Loss     : 1.000034	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000477	 | 	Valid Accuracy     : 0.000477
+Valid MAPE Loss    : 0.416282	 | 	Valid Accuracy     : 0.000477
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 51
+Train MSE Loss     : 1.000037	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.200368	 | 	Valid Accuracy     : 0.000460
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 52
+Train MSE Loss     : 1.000047	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000490	 | 	Valid Accuracy     : 0.000490
+Valid MAPE Loss    : 0.579045	 | 	Valid Accuracy     : 0.000490
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 53
+Train MSE Loss     : 1.000045	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.206676	 | 	Valid Accuracy     : 0.000461
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 54
+Train MSE Loss     : 1.000036	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000470	 | 	Valid Accuracy     : 0.000470
+Valid MAPE Loss    : 0.366257	 | 	Valid Accuracy     : 0.000470
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 55
+Train MSE Loss     : 1.000030	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.183487	 | 	Valid Accuracy     : 0.000460
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 56
+Train MSE Loss     : 1.000039	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000464	 | 	Valid Accuracy     : 0.000464
+Valid MAPE Loss    : 0.242975	 | 	Valid Accuracy     : 0.000464
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 57
+Train MSE Loss     : 1.000041	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000465	 | 	Valid Accuracy     : 0.000465
+Valid MAPE Loss    : 0.272559	 | 	Valid Accuracy     : 0.000465
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 58
+Train MSE Loss     : 1.000046	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000473	 | 	Valid Accuracy     : 0.000473
+Valid MAPE Loss    : 0.375937	 | 	Valid Accuracy     : 0.000473
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 59
+Train MSE Loss     : 1.000030	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.189053	 | 	Valid Accuracy     : 0.000461
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 60
+Train MSE Loss     : 1.000031	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.185542	 | 	Valid Accuracy     : 0.000462
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 61
+Train MSE Loss     : 1.000037	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000472	 | 	Valid Accuracy     : 0.000472
+Valid MAPE Loss    : 0.356341	 | 	Valid Accuracy     : 0.000472
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 62
+Train MSE Loss     : 1.000024	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000466	 | 	Valid Accuracy     : 0.000466
+Valid MAPE Loss    : 0.271566	 | 	Valid Accuracy     : 0.000466
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 63
+Train MSE Loss     : 1.000028	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000480	 | 	Valid Accuracy     : 0.000480
+Valid MAPE Loss    : 0.465672	 | 	Valid Accuracy     : 0.000480
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 64
+Train MSE Loss     : 1.000026	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.214613	 | 	Valid Accuracy     : 0.000463
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 65
+Train MSE Loss     : 1.000023	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000465	 | 	Valid Accuracy     : 0.000465
+Valid MAPE Loss    : 0.282024	 | 	Valid Accuracy     : 0.000465
+lr                 : [2.9999999999999997e-05]
+
+
+Epoch : 66
+Train MSE Loss     : 1.000023	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.200878	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 67
+Train MSE Loss     : 1.000017	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.208023	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 68
+Train MSE Loss     : 1.000017	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.178800	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 69
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000464	 | 	Valid Accuracy     : 0.000464
+Valid MAPE Loss    : 0.247041	 | 	Valid Accuracy     : 0.000464
+lr                 : [3e-06]
+
+
+Epoch : 70
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.174225	 | 	Valid Accuracy     : 0.000460
+lr                 : [3e-06]
+
+
+Epoch : 71
+Train MSE Loss     : 1.000017	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.203776	 | 	Valid Accuracy     : 0.000463
+lr                 : [3e-06]
+
+
+Epoch : 72
+Train MSE Loss     : 1.000017	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000467	 | 	Valid Accuracy     : 0.000467
+Valid MAPE Loss    : 0.271573	 | 	Valid Accuracy     : 0.000467
+lr                 : [3e-06]
+
+
+Epoch : 73
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.170919	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 74
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.174701	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 75
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.190256	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 76
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.193097	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 77
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.179122	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 78
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.195870	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 79
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.185747	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 80
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000464	 | 	Valid Accuracy     : 0.000464
+Valid MAPE Loss    : 0.211227	 | 	Valid Accuracy     : 0.000464
+lr                 : [3e-06]
+
+
+Epoch : 81
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.175981	 | 	Valid Accuracy     : 0.000460
+lr                 : [3e-06]
+
+
+Epoch : 82
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.212307	 | 	Valid Accuracy     : 0.000463
+lr                 : [3e-06]
+
+
+Epoch : 83
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.167346	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 84
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.176628	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 85
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.187896	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 86
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.186539	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 87
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.166109	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 88
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.206156	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 89
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000464	 | 	Valid Accuracy     : 0.000464
+Valid MAPE Loss    : 0.228609	 | 	Valid Accuracy     : 0.000464
+lr                 : [3e-06]
+
+
+Epoch : 90
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.171609	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 91
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.200369	 | 	Valid Accuracy     : 0.000463
+lr                 : [3e-06]
+
+
+Epoch : 92
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.202857	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 93
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.190304	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 94
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.165071	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 95
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.211432	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 96
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.227662	 | 	Valid Accuracy     : 0.000463
+lr                 : [3e-06]
+
+
+Epoch : 97
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.163415	 | 	Valid Accuracy     : 0.000460
+lr                 : [3e-06]
+
+
+Epoch : 98
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.181806	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 99
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.166033	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 100
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.193839	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 101
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.172317	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 102
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.210739	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 103
+Train MSE Loss     : 1.000016	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000464	 | 	Valid Accuracy     : 0.000464
+Valid MAPE Loss    : 0.218458	 | 	Valid Accuracy     : 0.000464
+lr                 : [3e-06]
+
+
+Epoch : 104
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.177680	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 105
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.182168	 | 	Valid Accuracy     : 0.000461
+lr                 : [3e-06]
+
+
+Epoch : 106
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.192402	 | 	Valid Accuracy     : 0.000462
+lr                 : [3e-06]
+
+
+Epoch : 107
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.165235	 | 	Valid Accuracy     : 0.000460
+lr                 : [3e-06]
+
+
+Epoch : 108
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.163806	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 109
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.167633	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 110
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.187654	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 111
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.182494	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 112
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.175258	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 113
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.192801	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 114
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.201051	 | 	Valid Accuracy     : 0.000463
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 115
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.169016	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 116
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.170724	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 117
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.177766	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 118
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.175975	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-07]
+
+
+Epoch : 119
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.166789	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 120
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.165818	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 121
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.194936	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 122
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.165799	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 123
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.182489	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 124
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.179411	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 125
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.172062	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 126
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.166957	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 127
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.181907	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 128
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.205302	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 129
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.167671	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-08]
+
+
+Epoch : 130
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.164764	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 131
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.168073	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 132
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.175618	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 133
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.175028	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 134
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.167675	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 135
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.163792	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 136
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.162973	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 137
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.165910	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 138
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.168193	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 139
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000463	 | 	Valid Accuracy     : 0.000463
+Valid MAPE Loss    : 0.191899	 | 	Valid Accuracy     : 0.000463
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 140
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.182528	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 141
+Train MSE Loss     : 1.000015	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000462	 | 	Valid Accuracy     : 0.000462
+Valid MAPE Loss    : 0.169320	 | 	Valid Accuracy     : 0.000462
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 142
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.166051	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 143
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.187200	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 144
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.189903	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 145
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.175839	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 146
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.164405	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 147
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.169222	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 148
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000461	 | 	Valid Accuracy     : 0.000461
+Valid MAPE Loss    : 0.188028	 | 	Valid Accuracy     : 0.000461
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 149
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.163270	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Epoch : 150
+Train MSE Loss     : 1.000014	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.000460	 | 	Valid Accuracy     : 0.000460
+Valid MAPE Loss    : 0.163194	 | 	Valid Accuracy     : 0.000460
+lr                 : [3.0000000000000004e-09]
+
+
+Evaluate on the Test set:
+Test MAPE loss      :0.143271	 | Test MSE loss      : 0.000007
+
+################## Training is Done! #########################
+Training time is : 2:19:07.132025

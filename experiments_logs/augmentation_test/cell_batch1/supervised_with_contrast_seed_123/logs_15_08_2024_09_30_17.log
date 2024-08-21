@@ -1,0 +1,62 @@
+=============================================
+Dataset: cell_mit_batch1_raw_data
+Mode:    supervised_with_contrast
+=============================================
+Data loaded ...
+Training started ....
+
+Epoch : 1
+Train MSE Loss     : 1.007632	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.018889	 | 	Valid Accuracy     : 0.018889
+Valid MAPE Loss    : 12.338135	 | 	Valid Accuracy     : 0.018889
+lr                 : [0.0003]
+
+
+Epoch : 2
+Train MSE Loss     : 1.010550	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.023162	 | 	Valid Accuracy     : 0.023162
+Valid MAPE Loss    : 13.719281	 | 	Valid Accuracy     : 0.023162
+lr                 : [0.0003]
+
+
+Epoch : 3
+Train MSE Loss     : 1.002017	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.047178	 | 	Valid Accuracy     : 0.047178
+Valid MAPE Loss    : 20.311268	 | 	Valid Accuracy     : 0.047178
+lr                 : [0.0003]
+
+
+Epoch : 4
+Train MSE Loss     : 1.000974	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.045540	 | 	Valid Accuracy     : 0.045540
+Valid MAPE Loss    : 20.025606	 | 	Valid Accuracy     : 0.045540
+lr                 : [0.0003]
+
+
+Epoch : 5
+Train MSE Loss     : 1.000824	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.050379	 | 	Valid Accuracy     : 0.050379
+Valid MAPE Loss    : 21.045481	 | 	Valid Accuracy     : 0.050379
+lr                 : [0.0003]
+
+
+Epoch : 6
+Train MSE Loss     : 1.001065	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.039105	 | 	Valid Accuracy     : 0.039105
+Valid MAPE Loss    : 18.287340	 | 	Valid Accuracy     : 0.039105
+lr                 : [0.0003]
+
+
+Epoch : 7
+Train MSE Loss     : 1.000720	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.042591	 | 	Valid Accuracy     : 0.042591
+Valid MAPE Loss    : 19.278000	 | 	Valid Accuracy     : 0.042591
+lr                 : [0.0003]
+
+
+Epoch : 8
+Train MSE Loss     : 1.001199	 | 	Train Accuracy     : nan
+Valid MSE Loss     : 0.046041	 | 	Valid Accuracy     : 0.046041
+Valid MAPE Loss    : 19.937988	 | 	Valid Accuracy     : 0.046041
+lr                 : [0.0003]
+

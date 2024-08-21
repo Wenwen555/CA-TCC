@@ -1,0 +1,41 @@
+=============================================
+Dataset: cell_mit_batch3_prepocess_data
+Mode:    supervised
+=============================================
+Data loaded ...
+Training started ....
+
+Epoch : 1
+Train MSE Loss     : 0.005394	 | 	Train Accuracy     : 0.005394
+Valid MSE Loss     : 0.001277	 | 	Valid Accuracy     : 0.001277
+Valid MAPE Loss    : 2.982759	 | 	Valid Accuracy     : 0.001277
+lr                 : [0.0003]
+
+
+Epoch : 2
+Train MSE Loss     : 0.000916	 | 	Train Accuracy     : 0.000916
+Valid MSE Loss     : 0.000764	 | 	Valid Accuracy     : 0.000764
+Valid MAPE Loss    : 2.280254	 | 	Valid Accuracy     : 0.000764
+lr                 : [0.0003]
+
+
+Epoch : 3
+Train MSE Loss     : 0.000943	 | 	Train Accuracy     : 0.000943
+Valid MSE Loss     : 0.001435	 | 	Valid Accuracy     : 0.001435
+Valid MAPE Loss    : 3.252286	 | 	Valid Accuracy     : 0.001435
+lr                 : [0.0003]
+
+
+Epoch : 4
+Train MSE Loss     : 0.000592	 | 	Train Accuracy     : 0.000592
+Valid MSE Loss     : 0.001921	 | 	Valid Accuracy     : 0.001921
+Valid MAPE Loss    : 3.727405	 | 	Valid Accuracy     : 0.001921
+lr                 : [0.0003]
+
+
+Epoch : 5
+Train MSE Loss     : 0.000511	 | 	Train Accuracy     : 0.000511
+Valid MSE Loss     : 0.001762	 | 	Valid Accuracy     : 0.001762
+Valid MAPE Loss    : 2.837038	 | 	Valid Accuracy     : 0.001762
+lr                 : [0.0003]
+
